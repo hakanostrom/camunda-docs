@@ -164,7 +164,7 @@ The history migration has the following limitations.
 ### General
 
 - To avoid collisions between definitions (process/decision/form), each definition migrated from Camunda 7 to 8 has its ID prefixed with `c7-legacy-`.
-  - Do not deploy new definitions in Camunda 8 with ids starting with this prefix to avoid conflicts.
+  - Do not deploy new definitions in Camunda 8 with IDs starting with this prefix to avoid conflicts.
 
 ### Process instance
 
